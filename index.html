@@ -1,6 +1,75 @@
-<html>
-  <head><title>Xemora</title></head>
-  <body>
-    <H1><center>Xemora</center></H1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xemore</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">xemore</div>
+  <input type="text" id="search" placeholder="Search Xemore…" />
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <h3>Navigation</h3>
+    <ul id="nav">
+      <li data-target="intro">Introduction</li>
+      <li data-target="about">About</li>
+      <li data-target="projects">Projects</li>
+      <li data-target="notes">Notes</li>
+      <li data-target="contact">Contact</li>
+    </ul>
+  </aside>
+
+  <main class="content">
+    <section id="intro">
+      <h1>Xemore</h1>
+      <p class="subtitle">A personal knowledge space.</p>
+      <p>
+        Xemore is a living archive of ideas, experiments, and learning.
+        Built slowly, thoughtfully, and openly.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        This site is inspired by encyclopedic clarity and modern interaction.
+        It may remain personal or grow into something bigger.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>📌 GitHub Pages experiments</li>
+        <li>📌 Learning web fundamentals</li>
+        <li>📌 Building calm interfaces</li>
+      </ul>
+    </section>
+
+    <section id="notes">
+      <h2>Notes</h2>
+      <p>
+        Short thoughts, ideas, and references will live here.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: hello@xemore.in</p>
+    </section>
+  </main>
+</div>
+
+<footer class="footer">
+  © 2026 Xemore
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
